@@ -1,0 +1,88 @@
+<!DOCTYPE html >
+<html> <!--never gonna give you up, never gonna let you down-->
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<body background="https://phcorner.net/attachments/8-f4b44b6d-jpg.2168482/" 
+style="background-size: cover; background-attachment: fixed;" >
+<menu class="dark">
+    <div style="position: absolute;"></div>
+
+
+    <div class="dropdown">
+        <button onclick="myFunctionz()" class="dropbtn">Directory</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="Wuthering_Waves_Website.html">Wuthering Showcase</a>
+            <a href="InterMap.html">Interactive Map</a>
+            <a href="DistressedBrain.html">About me</a>
+        </div>
+    </div>
+</menu>
+    <style>
+    .dropbtn {
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: transparent;
+      min-width: 80px;
+      box-shadow: 0px 8px 16px 0px transparent;
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: rgb(255, 255, 255);
+      padding: 12px 14px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:rgba(13, 84, 104, 0.726);}
+    
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+    </style>
+    <script>
+    function myFunctionz() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+         
+        
+    </script>
+
+</body>
+</body>
+</html>
