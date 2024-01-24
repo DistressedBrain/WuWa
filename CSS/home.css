@@ -1,0 +1,20 @@
+body{
+background-image: url("web/Unbenannt-2.webp");
+background-size:cover;
+background-repeat: repeat;
+position: static;
+}
+.center {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    align-items: center;
+    align-self: auto;
+  
+  }
+.homepage {
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
