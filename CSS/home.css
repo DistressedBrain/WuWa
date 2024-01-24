@@ -4,14 +4,7 @@ background-size:cover;
 background-repeat: repeat;
 position: static;
 }
-.center {
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 75px;
-    margin-bottom: 100px;
-    align-items: center;
-    align-self: auto;
-  
+ 
   }
 .homepage {
     margin-right: 300px;
