@@ -1,14 +1,18 @@
 .interactive {
     background-image: url(https://media.discordapp.net/attachments/1020695454771593307/1090747662321586186/IMG_1548.png?width=1023&height=473);
     background-size: cover;
-    background-repeat: repeat; 
+    background-repeat: repeat;
+    position: static; 
 }
   
   
-.body {
-    height: 100px;
+a{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
     margin: 0;
-    display: flex;
-    
-    
-  }
+    padding: 0;
+    overflow: hidden;
+    background-color: #01021b;
+}
