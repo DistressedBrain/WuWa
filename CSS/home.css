@@ -1,7 +1,7 @@
 body{
 background-image: url("../web/Unbenannt-2.webp");
 background-size:cover;
-background-repeat: repeat;
+background-repeat: no repeat;
 position: static;
 }
  
